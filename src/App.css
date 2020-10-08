@@ -1,3 +1,9 @@
+.nav {
+  width: 100vw;
+  background-repeat: repeat;
+  /* background-size: cover; */
+  padding: 30px;
+}
 .nav-inner {
   max-width: 1000px;
   margin: 0 auto;
@@ -7,4 +13,13 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 80% 1fr;
+}
+.nav h1,
+.nav h2 {
+  color: white;
+}
+.cover-photo {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
 }

@@ -1,27 +1,40 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import headerBg from "./assets/header-bg.jpg";
+import modelC from "./assets/modelC.jpeg";
 
 function App() {
   return (
     <div className="app">
-      <div className="nav">
+      <div className="nav" style={{ backgroundImage: `url("${headerBg}")` }}>
         <div className="nav-inner">
           <h1>Elmo Manufacturing Co., Inc.</h1>
-          <h2>Manufactuerer of Safety Strap Cutters</h2>
+          <h2>Manufacturer of Safety Strap Cutters</h2>
         </div>
-
       </div>
       <div className="container">
         <div className="body">
-          <img />
+          <img src={modelC} className="cover-photo" />
           <h3>How the Elmo Safety Cutter Works</h3>
-          <p>As band is cut, shock absorber pads engage both ends of cut band while tension energy is absorbed automatically by the pads.</p>
+          <p>
+            As band is cut, shock absorber pads engage both ends of cut band while tension energy is
+            absorbed automatically by the pads.
+          </p>
           <ul>
-            <li>Using the ELMO Safety Cutter is much less costly than even one single injury to a worker's skin or eyes.</li>
-            <li>U.S. Government qualified "Safety Cutters-Doubled-Sided Retaining" (NSN #5110-11-771-3732, Spec GGG-C-835)</li>
+            <li>
+              Using the ELMO Safety Cutter is much less costly than even one single injury to a
+              worker's skin or eyes.
+            </li>
+            <li>
+              U.S. Government qualified "Safety Cutters-Doubled-Sided Retaining" (NSN
+              #5110-11-771-3732, Spec GGG-C-835)
+            </li>
             <li>Ergonomically engineered for easy handling and lower effort.</li>
             <li>Made of forged alloy steel, hardened and tempered for toughness and durability.</li>
-            <li>Used in all plant areas and facilities handling palletized, rolled or banded material. Also used as a standard safety accessory of fork lift trucks.</li>
+            <li>
+              Used in all plant areas and facilities handling palletized, rolled or banded material.
+              Also used as a standard safety accessory of fork lift trucks.
+            </li>
           </ul>
         </div>
         <div className="sidebar">
@@ -29,19 +42,27 @@ function App() {
           <h2>Products</h2>
           <ul>
             <li>
-              <a href="/model-e"><h2>Model E</h2></a>
+              <a href="/model-e">
+                <h2>Model E</h2>
+              </a>
               <p>Short handle safety strap cutter</p>
             </li>
             <li>
-              <a href="/model-l"><h2>Model L</h2></a>
+              <a href="/model-l">
+                <h2>Model L</h2>
+              </a>
               <p>Long handle safety strap cutter</p>
             </li>
             <li>
-              <a href="/model-i"><h2>Model I</h2></a>
+              <a href="/model-i">
+                <h2>Model I</h2>
+              </a>
               <p>Industrial grade safety strap cutter</p>
             </li>
             <li>
-              <a href="/model-c"><h2>Model C</h2></a>
+              <a href="/model-c">
+                <h2>Model C</h2>
+              </a>
               <p>Designed for the toughest safety strap situations</p>
             </li>
           </ul>
