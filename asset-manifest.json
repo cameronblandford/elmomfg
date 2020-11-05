@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/elmomfg/static/css/main.b4c512c8.chunk.css",
-    "main.js": "/elmomfg/static/js/main.ccd11b0f.chunk.js",
-    "main.js.map": "/elmomfg/static/js/main.ccd11b0f.chunk.js.map",
+    "main.css": "/elmomfg/static/css/main.f8613c93.chunk.css",
+    "main.js": "/elmomfg/static/js/main.b6117450.chunk.js",
+    "main.js.map": "/elmomfg/static/js/main.b6117450.chunk.js.map",
     "runtime-main.js": "/elmomfg/static/js/runtime-main.7de4dff4.js",
     "runtime-main.js.map": "/elmomfg/static/js/runtime-main.7de4dff4.js.map",
-    "static/js/2.f594c47a.chunk.js": "/elmomfg/static/js/2.f594c47a.chunk.js",
-    "static/js/2.f594c47a.chunk.js.map": "/elmomfg/static/js/2.f594c47a.chunk.js.map",
+    "static/js/2.392f979a.chunk.js": "/elmomfg/static/js/2.392f979a.chunk.js",
+    "static/js/2.392f979a.chunk.js.map": "/elmomfg/static/js/2.392f979a.chunk.js.map",
     "index.html": "/elmomfg/index.html",
-    "precache-manifest.ff12f2a9e87bc40b84462822e16ccd4a.js": "/elmomfg/precache-manifest.ff12f2a9e87bc40b84462822e16ccd4a.js",
+    "precache-manifest.bd468f2d959cdd4eed50df40e5cdfac9.js": "/elmomfg/precache-manifest.bd468f2d959cdd4eed50df40e5cdfac9.js",
     "service-worker.js": "/elmomfg/service-worker.js",
-    "static/css/main.b4c512c8.chunk.css.map": "/elmomfg/static/css/main.b4c512c8.chunk.css.map",
-    "static/js/2.f594c47a.chunk.js.LICENSE.txt": "/elmomfg/static/js/2.f594c47a.chunk.js.LICENSE.txt",
+    "static/css/main.f8613c93.chunk.css.map": "/elmomfg/static/css/main.f8613c93.chunk.css.map",
+    "static/js/2.392f979a.chunk.js.LICENSE.txt": "/elmomfg/static/js/2.392f979a.chunk.js.LICENSE.txt",
     "static/media/header-bg.jpg": "/elmomfg/static/media/header-bg.403f57c3.jpg",
-    "static/media/modelC.jpeg": "/elmomfg/static/media/modelC.07adc7bf.jpeg"
+    "static/media/modelC.jpeg": "/elmomfg/static/media/modelC.07adc7bf.jpeg",
+    "static/media/modelE.jpg": "/elmomfg/static/media/modelE.61799a8c.jpg",
+    "static/media/modelI.jpeg": "/elmomfg/static/media/modelI.9b636ded.jpeg",
+    "static/media/modelL.jpeg": "/elmomfg/static/media/modelL.fb9d4789.jpeg",
+    "static/media/tools.jpg": "/elmomfg/static/media/tools.30820eb9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7de4dff4.js",
-    "static/js/2.f594c47a.chunk.js",
-    "static/css/main.b4c512c8.chunk.css",
-    "static/js/main.ccd11b0f.chunk.js"
+    "static/js/2.392f979a.chunk.js",
+    "static/css/main.f8613c93.chunk.css",
+    "static/js/main.b6117450.chunk.js"
   ]
 }
