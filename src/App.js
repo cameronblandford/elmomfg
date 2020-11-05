@@ -1,7 +1,13 @@
 import React from "react";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 import headerBg from "./assets/header-bg.jpg";
-import modelC from "./assets/modelC.jpeg";
+import Contact from './pages/Contact';
+import Index from './pages/Index';
+import ModelC from './pages/ModelC';
+import ModelE from './pages/ModelE';
+import ModelI from './pages/ModelI';
+import ModelL from './pages/ModelL';
 
 function App() {
   return (
@@ -14,28 +20,14 @@ function App() {
       </div>
       <div className="container">
         <div className="body">
-          <img src={modelC} className="cover-photo" />
-          <h3>How the Elmo Safety Cutter Works</h3>
-          <p>
-            As band is cut, shock absorber pads engage both ends of cut band while tension energy is
-            absorbed automatically by the pads.
-          </p>
-          <ul>
-            <li>
-              Using the ELMO Safety Cutter is much less costly than even one single injury to a
-              worker's skin or eyes.
-            </li>
-            <li>
-              U.S. Government qualified "Safety Cutters-Doubled-Sided Retaining" (NSN
-              #5110-11-771-3732, Spec GGG-C-835)
-            </li>
-            <li>Ergonomically engineered for easy handling and lower effort.</li>
-            <li>Made of forged alloy steel, hardened and tempered for toughness and durability.</li>
-            <li>
-              Used in all plant areas and facilities handling palletized, rolled or banded material.
-              Also used as a standard safety accessory of fork lift trucks.
-            </li>
-          </ul>
+          <Switch>
+            <Route path="/" component={Index} exact />
+            <Route path="/contact" component={Contact} exact />
+            <Route path="/model-c" component={ModelC} exact />
+            <Route path="/model-e" component={ModelE} exact />
+            <Route path="/model-i" component={ModelI} exact />
+            <Route path="/model-l" component={ModelL} exact />
+          </Switch>
         </div>
         <div className="sidebar">
           <a href="/contact">Contact Us</a>
