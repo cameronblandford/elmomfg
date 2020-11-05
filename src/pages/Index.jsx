@@ -4,7 +4,7 @@ import toolsImage from '../assets/tools.jpg'
 const Index = () => {
   return <div>
           <img src={toolsImage} className="cover-photo" />
-          <h3>How the Elmo Safety Cutter Works</h3>
+          <h3>How the Elmo Safety Cutter Works:</h3>
           <p>
             As band is cut, shock absorber pads engage both ends of cut band while tension energy is
             absorbed automatically by the pads.
