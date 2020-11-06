@@ -10,7 +10,7 @@
 }
 .container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
   display: grid;
   grid-template-columns: 80% 1fr;
 }
@@ -22,4 +22,7 @@
   width: 100%;
   margin: 20px auto;
   display: block;
+}
+.sidebar > h2 {
+  margin-left: 20px;
 }
