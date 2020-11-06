@@ -30,7 +30,11 @@ function App() {
           </Switch>
         </div>
         <div className="sidebar">
-          <Link to="/contact">Contact Us</Link>
+          <ul>
+            <li>
+              <Link to="/contact">Contact Us</Link>
+            </li>
+          </ul>
           <h2>Products</h2>
           <ul>
             <li>
