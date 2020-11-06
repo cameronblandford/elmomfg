@@ -1,14 +1,17 @@
 import React from 'react';
 import modelCImage from '../assets/modelC.jpeg'
-
+import Detail from '../components/ProductDetail'
 const ModelC = () => {
   return <div>
-          <h1>Model C</h1>
-          <h2>Designed for the toughest strapping situations</h2>
-          <img src={modelCImage} className="cover-photo" />
-          <p>Double clamping grips hold the cut strap even when they want to come apart. Includes premium non-slip rubber grips and grade 8 connectors.</p>
-          <p>Weight 2lbs., 12" long</p>
-          <p><strong>Price USD 299.95</strong><br/>Plus shipping/handling &amps; sales tax.</p>
+          <Detail
+            hed="Model C"
+            dek="Designed for the toughest strapping situations"
+            img={modelCImage}
+            body={"Double clamping grips hold the cut strap even when they want to come apart. Includes premium non-slip rubber grips and grade 8 connectors."}
+            price="229.95"
+            weight="2lbs"
+            length={'12"'}
+          />
   </div>
 }
 
