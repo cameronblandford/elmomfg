@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
 import "./App.css";
 import headerBg from "./assets/header-bg.jpg";
 import Contact from './pages/Contact';
@@ -30,31 +30,31 @@ function App() {
           </Switch>
         </div>
         <div className="sidebar">
-          <a href="/contact">Contact Us</a>
+          <Link to="/contact">Contact Us</Link>
           <h2>Products</h2>
           <ul>
             <li>
-              <a href="/model-e">
+              <Link to="/model-e">
                 <h2>Model E</h2>
-              </a>
+              </Link>
               <p>Short handle safety strap cutter</p>
             </li>
             <li>
-              <a href="/model-l">
+              <Link to="/model-l">
                 <h2>Model L</h2>
-              </a>
+              </Link>
               <p>Long handle safety strap cutter</p>
             </li>
             <li>
-              <a href="/model-i">
+              <Link to="/model-i">
                 <h2>Model I</h2>
-              </a>
+              </Link>
               <p>Industrial grade safety strap cutter</p>
             </li>
             <li>
-              <a href="/model-c">
+              <Link to="/model-c">
                 <h2>Model C</h2>
-              </a>
+              </Link>
               <p>Designed for the toughest safety strap situations</p>
             </li>
           </ul>
