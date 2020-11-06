@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/elmomfg/static/css/main.c4693b04.chunk.css",
-    "main.js": "/elmomfg/static/js/main.598dc2e0.chunk.js",
-    "main.js.map": "/elmomfg/static/js/main.598dc2e0.chunk.js.map",
+    "main.css": "/elmomfg/static/css/main.6c0f25b0.chunk.css",
+    "main.js": "/elmomfg/static/js/main.61385258.chunk.js",
+    "main.js.map": "/elmomfg/static/js/main.61385258.chunk.js.map",
     "runtime-main.js": "/elmomfg/static/js/runtime-main.7de4dff4.js",
     "runtime-main.js.map": "/elmomfg/static/js/runtime-main.7de4dff4.js.map",
     "static/js/2.48f04792.chunk.js": "/elmomfg/static/js/2.48f04792.chunk.js",
     "static/js/2.48f04792.chunk.js.map": "/elmomfg/static/js/2.48f04792.chunk.js.map",
     "index.html": "/elmomfg/index.html",
-    "precache-manifest.6a29ce5476386148365608dc7550ef36.js": "/elmomfg/precache-manifest.6a29ce5476386148365608dc7550ef36.js",
+    "precache-manifest.3ebc702ab36b26434c18650afcf971ae.js": "/elmomfg/precache-manifest.3ebc702ab36b26434c18650afcf971ae.js",
     "service-worker.js": "/elmomfg/service-worker.js",
-    "static/css/main.c4693b04.chunk.css.map": "/elmomfg/static/css/main.c4693b04.chunk.css.map",
+    "static/css/main.6c0f25b0.chunk.css.map": "/elmomfg/static/css/main.6c0f25b0.chunk.css.map",
     "static/js/2.48f04792.chunk.js.LICENSE.txt": "/elmomfg/static/js/2.48f04792.chunk.js.LICENSE.txt",
     "static/media/header-bg.jpg": "/elmomfg/static/media/header-bg.403f57c3.jpg",
     "static/media/modelC.jpeg": "/elmomfg/static/media/modelC.07adc7bf.jpeg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.7de4dff4.js",
     "static/js/2.48f04792.chunk.js",
-    "static/css/main.c4693b04.chunk.css",
-    "static/js/main.598dc2e0.chunk.js"
+    "static/css/main.6c0f25b0.chunk.css",
+    "static/js/main.61385258.chunk.js"
   ]
 }
